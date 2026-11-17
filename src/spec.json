@@ -1,0 +1,216 @@
+{
+  "title": "Catalogo dei corsi di formazione",
+  "description": "Gestione dei corsi interni, delle sessioni e dei posti disponibili, con dati di prova interamente inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo dei corsi e delle prossime sessioni di formazione.",
+      "metrics": [
+        {
+          "label": "Corsi a catalogo",
+          "value": "12"
+        },
+        {
+          "label": "Sessioni in programma",
+          "value": "8"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "46"
+        },
+        {
+          "label": "Corsi in partenza entro 30 giorni",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Scrittura chiara",
+          "Lumo",
+          "12/05/2026",
+          "8",
+          "In programma"
+        ],
+        [
+          "Strumenti digitali",
+          "Vela",
+          "18/05/2026",
+          "5",
+          "In programma"
+        ],
+        [
+          "Organizzazione del lavoro",
+          "Nubi",
+          "26/05/2026",
+          "12",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Comunicazione nei gruppi",
+          "Timo",
+          "03/06/2026",
+          "6",
+          "In programma"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "catalogo-corsi",
+      "title": "Catalogo corsi",
+      "description": "Consulta e filtra i corsi disponibili; usa il modulo per aggiungere una proposta al catalogo.",
+      "metrics": [],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Scrittura chiara",
+          "Lumo",
+          "12/05/2026",
+          "8",
+          "In programma"
+        ],
+        [
+          "Strumenti digitali",
+          "Vela",
+          "18/05/2026",
+          "5",
+          "In programma"
+        ],
+        [
+          "Organizzazione del lavoro",
+          "Nubi",
+          "26/05/2026",
+          "12",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Comunicazione nei gruppi",
+          "Timo",
+          "03/06/2026",
+          "6",
+          "In programma"
+        ],
+        [
+          "Introduzione alla facilitazione",
+          "Rugiada",
+          "10/06/2026",
+          "10",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Gestione delle priorità",
+          "Menta",
+          "16/06/2026",
+          "5",
+          "In programma"
+        ],
+        [
+          "Condivisione delle conoscenze",
+          "Bruma",
+          "23/06/2026",
+          "7",
+          "In programma"
+        ]
+      ],
+      "form": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili",
+        "Stato"
+      ]
+    },
+    {
+      "id": "sessioni",
+      "title": "Sessioni",
+      "description": "Esamina date, docenti e disponibilità delle sessioni in programma.",
+      "metrics": [
+        {
+          "label": "Sessioni attive",
+          "value": "8"
+        },
+        {
+          "label": "Posti occupati",
+          "value": "39"
+        },
+        {
+          "label": "Posti liberi",
+          "value": "46"
+        }
+      ],
+      "columns": [
+        "Sessione",
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "SCR-12",
+          "Scrittura chiara",
+          "Lumo",
+          "12/05/2026",
+          "8",
+          "In programma"
+        ],
+        [
+          "DIG-18",
+          "Strumenti digitali",
+          "Vela",
+          "18/05/2026",
+          "5",
+          "In programma"
+        ],
+        [
+          "ORG-26",
+          "Organizzazione del lavoro",
+          "Nubi",
+          "26/05/2026",
+          "12",
+          "Iscrizioni aperte"
+        ],
+        [
+          "COM-03",
+          "Comunicazione nei gruppi",
+          "Timo",
+          "03/06/2026",
+          "6",
+          "In programma"
+        ],
+        [
+          "FAC-10",
+          "Introduzione alla facilitazione",
+          "Rugiada",
+          "10/06/2026",
+          "10",
+          "Iscrizioni aperte"
+        ]
+      ],
+      "form": [
+        "Sessione",
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili",
+        "Stato"
+      ]
+    }
+  ]
+}
